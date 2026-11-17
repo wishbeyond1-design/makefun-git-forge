@@ -15,6 +15,10 @@
 //      reads.
 //
 // main.ts imports its own server and nothing else: no package, no Node built-in, no model call.
+//
+// Note: entrypoint for the make.fun git-forge entry (github-core-clone-01).
+// The lifecycle (bind, register, wait for done) is the kit starter's, unchanged;
+// the forge server itself is built in app.ts.
 
 import { createApp } from './app.ts';
 
